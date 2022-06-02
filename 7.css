@@ -4,20 +4,20 @@
 	background-attachment: fixed;
 	background-repeat: no-repeat;}
 
-#content2{background-image: url("atom.jng");
+#content2{background-image: url("74.png");
 	background-position:  top;
 	/*background-attachment: fixed;*/
 	background-repeat: no-repeat;}
 
-#content3{background-image: url("atom2.png");
+#content3{background-image: url("73.png");
 	background-position: top;/*background-attachment: fixed;*/
 	background-repeat: no-repeat;}
 
-#content4{background-image: url("foto333.jpeg");
+#content4{background-image: url("72.png");
 	background-position: right;/*background-attachment: fixed;*/
 	background-repeat: no-repeat;}
 
-#iz{background: turquoise url(atom33.png)round scroll right; 
+#iz{background: turquoise url(71.jfif)round scroll right; 
 background-position: left;}
 
 .text{text-align: center;font-family: Comic Sans MS;font-weight: bold;font-size: 18px;}
