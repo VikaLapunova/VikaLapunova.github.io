@@ -1,27 +1,27 @@
 #content{
 	background-color: blue;
-	background-image: url("7.1.png");
+	background-image: url("фото1.jfif");
 	background-position: center top;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
 
 #content2{
-	background-image: url("atom.jpg");
+	background-image: url("фото2.jpg");
 	background-position: center top;
 	/*background-attachment: fixed;*/
 	background-repeat: no-repeat;
 }
 
 #content3{
-	background-image: url("atom2.png");
+	background-image: url("фото3.jpg");
 	background-position: top;
 /*	background-attachment: fixed;*/
 	background-repeat: no-repeat;
 }
 
 #content4{
-	background-image: url("bg3.jpg");
+	background-image: url("фото4.jfif");
 	background-position: right;
 /*	background-attachment: fixed;*/
 	background-repeat: no-repeat;
@@ -30,35 +30,35 @@
 #iz{
 	background: #content{
 	background-color: blue;
-	background-image: url("7.1.png");
+	background-image: url("фото1.jfif");
 	background-position: center top;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
 
 #content2{
-	background-image: url("atom.jpg");
+	background-image: url("фото2.jpg");
 	background-position: center top;
 	/*background-attachment: fixed;*/
 	background-repeat: no-repeat;
 }
 
 #content3{
-	background-image: url("atom2.png");
+	background-image: url("фото3.jpg");
 	background-position: top;
 /*	background-attachment: fixed;*/
 	background-repeat: no-repeat;
 }
 
 #content4{
-	background-image: url("bg3.jpg");
+	background-image: url("фото4.jfif");
 	background-position: right;
 /*	background-attachment: fixed;*/
 	background-repeat: no-repeat;
 }
 
 #iz{
-	background: turquoise url(atom3.png) round scroll right;
+	background: turquoise url(фото3.png) round scroll right;
 }
 
 .text{
