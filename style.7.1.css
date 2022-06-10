@@ -1,0 +1,9 @@
+#content {background: 
+blue url("7.1.png") 
+fixed center top norepeat;}
+
+
+#content2{background: turquoise url(фото3.png)round scroll right; 
+background-position: left;}
+
+.text{text-align: center;font-family: Comic Sans MS;font-weight: bold;font-size: 18px;}
