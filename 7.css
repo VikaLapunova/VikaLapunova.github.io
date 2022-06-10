@@ -1,23 +1,69 @@
-#content{background-color: blue;
+#content{
+	background-color: blue;
 	background-image: url("7.1.png");
 	background-position: center top;
 	background-attachment: fixed;
-	background-repeat: no-repeat;}
+	background-repeat: no-repeat;
+}
 
-#content2{background-image: url("74.png");
-	background-position:  top;
+#content2{
+	background-image: url("atom.jpg");
+	background-position: center top;
 	/*background-attachment: fixed;*/
-	background-repeat: no-repeat;}
+	background-repeat: no-repeat;
+}
 
-#content3{background-image: url("73.png");
-	background-position: top;/*background-attachment: fixed;*/
-	background-repeat: no-repeat;}
+#content3{
+	background-image: url("atom2.png");
+	background-position: top;
+/*	background-attachment: fixed;*/
+	background-repeat: no-repeat;
+}
 
-#content4{background-image: url("72.png");
-	background-position: right;/*background-attachment: fixed;*/
-	background-repeat: no-repeat;}
+#content4{
+	background-image: url("bg3.jpg");
+	background-position: right;
+/*	background-attachment: fixed;*/
+	background-repeat: no-repeat;
+}
 
-#iz{background: turquoise url(71.jfif)round scroll right; 
-background-position: left;}
+#iz{
+	background: #content{
+	background-color: blue;
+	background-image: url("7.1.png");
+	background-position: center top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
 
-.text{text-align: center;font-family: Comic Sans MS;font-weight: bold;font-size: 18px;}
+#content2{
+	background-image: url("atom.jpg");
+	background-position: center top;
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+}
+
+#content3{
+	background-image: url("atom2.png");
+	background-position: top;
+/*	background-attachment: fixed;*/
+	background-repeat: no-repeat;
+}
+
+#content4{
+	background-image: url("bg3.jpg");
+	background-position: right;
+/*	background-attachment: fixed;*/
+	background-repeat: no-repeat;
+}
+
+#iz{
+	background: turquoise url(atom3.png) round scroll right;
+}
+
+.text{
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-size: 18px;
+}
