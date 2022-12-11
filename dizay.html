@@ -1,0 +1,50 @@
+import turtle as t
+
+
+def get_command(axiom, iterations, alphabet):
+    temp = ''
+
+    for j in range(iterations):
+        for ch in axiom:
+            temp += alphabet[ch]
+
+        axiom = temp
+        temp = ''
+
+    return axiom
+
+
+def draw(tu, command, ang, dist):
+    for i in command:
+        if i == '+':
+            tu.right(ang)
+        elif i == '-':
+            tu.left(ang)
+        else:
+            tu.forward(dist)
+    tu.update()
+
+
+def main():
+    axiom = 'FX'
+    iterations = 16
+    ang = 90
+    dist = 1
+    alphabet = {'X': 'X+YF+', 'Y': '-FX-Y', '+': '+', '-': '-', 'F': 'F'}
+
+    command = get_command(axiom, iterations, alphabet)
+
+    t.hideturtle()
+    t.tracer(0)
+    t.speed(0)
+    t.penup()
+    t.setposition(0, -300)
+    t.pendown()
+    t.pensize(2)
+    draw(t, command, ang, dist)
+
+    t.mainloop()
+
+
+if __name__ == '__main__':
+    main()
